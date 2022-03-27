@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://export/Artboard 1.png" type="Texture" id=1]
+[ext_resource path="res://export/Menu.gd" type="Script" id=2]
+
+[node name="Menu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 2 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 748.0
+margin_bottom = 721.0
+
+[node name="Artboard1" type="Sprite" parent="."]
+position = Vector2( 372, 351 )
+scale = Vector2( 0.251953, 0.161133 )
+texture = ExtResource( 1 )
