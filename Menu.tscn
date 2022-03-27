@@ -9,10 +9,10 @@ anchor_bottom = 1.0
 script = ExtResource( 2 )
 
 [node name="ColorRect" type="ColorRect" parent="."]
-margin_right = 748.0
-margin_bottom = 721.0
+margin_right = 1054.0
+margin_bottom = 1414.0
 
 [node name="Artboard1" type="Sprite" parent="."]
-position = Vector2( 372, 351 )
+position = Vector2( 438, 614 )
 scale = Vector2( 0.251953, 0.161133 )
 texture = ExtResource( 1 )
